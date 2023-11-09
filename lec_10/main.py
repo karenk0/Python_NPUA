@@ -1,6 +1,6 @@
-import vehicle
+import vehicle # Or if instead we have written     from vehicle import *        this will import everything from that modul
 
-class Car(vehicle.Vehicle):
+class Car(vehicle.Vehicle): # and here we could write just Vehicle, instead of vehicle.Vehicle
     def __init__(self, weight, speed):
         super().__init__(weight)
         self.speed = speed   
